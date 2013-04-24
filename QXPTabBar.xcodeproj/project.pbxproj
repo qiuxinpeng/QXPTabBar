@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F68A2A91727D1C90038C650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F68A2A81727D1C90038C650 /* UIKit.framework */; };
+		0F68A2AB1727D1C90038C650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F68A2AA1727D1C90038C650 /* Foundation.framework */; };
+		0F68A2AD1727D1C90038C650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F68A2AC1727D1C90038C650 /* CoreGraphics.framework */; };
+		0F68A2B31727D1C90038C650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F68A2B11727D1C90038C650 /* InfoPlist.strings */; };
+		0F68A2B51727D1C90038C650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2B41727D1C90038C650 /* main.m */; };
+		0F68A2B91727D1C90038C650 /* QXPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2B81727D1C90038C650 /* QXPAppDelegate.m */; };
+		0F68A2BB1727D1C90038C650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F68A2BA1727D1C90038C650 /* Default.png */; };
+		0F68A2BD1727D1CA0038C650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F68A2BC1727D1CA0038C650 /* Default@2x.png */; };
+		0F68A2BF1727D1CA0038C650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F68A2BE1727D1CA0038C650 /* Default-568h@2x.png */; };
+		0F68A2D31727D1E10038C650 /* QXPTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2C71727D1E10038C650 /* QXPTab.m */; };
+		0F68A2D41727D1E10038C650 /* QXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2C91727D1E10038C650 /* QXPTabBar.m */; };
+		0F68A2D51727D1E10038C650 /* QXPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2CB1727D1E10038C650 /* QXPTabBarController.m */; };
+		0F68A2D61727D1E10038C650 /* QXPTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2CD1727D1E10038C650 /* QXPTabBarView.m */; };
+		0F68A2D71727D1E10038C650 /* selectedBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F68A2CE1727D1E10038C650 /* selectedBackgroundImage.png */; };
+		0F68A2D81727D1E10038C650 /* UINavigationController+QXPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2D01727D1E10038C650 /* UINavigationController+QXPTabBarController.m */; };
+		0F68A2D91727D1E10038C650 /* UIViewController+QXPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2D21727D1E10038C650 /* UIViewController+QXPTabBarController.m */; };
+		0F68A2E21727D1F20038C650 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2DD1727D1F20038C650 /* ViewControllerOne.m */; };
+		0F68A2E31727D1F20038C650 /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2DF1727D1F20038C650 /* ViewControllerThree.m */; };
+		0F68A2E41727D1F20038C650 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F68A2E11727D1F20038C650 /* ViewControllerTwo.m */; };
+		0F68A2E61727D2240038C650 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F68A2E51727D2240038C650 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F68A2A51727D1C90038C650 /* QXPTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXPTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F68A2A81727D1C90038C650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F68A2AA1727D1C90038C650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F68A2AC1727D1C90038C650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F68A2B01727D1C90038C650 /* QXPTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QXPTabBar-Info.plist"; sourceTree = "<group>"; };
+		0F68A2B21727D1C90038C650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F68A2B41727D1C90038C650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F68A2B61727D1C90038C650 /* QXPTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QXPTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		0F68A2B71727D1C90038C650 /* QXPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXPAppDelegate.h; sourceTree = "<group>"; };
+		0F68A2B81727D1C90038C650 /* QXPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXPAppDelegate.m; sourceTree = "<group>"; };
+		0F68A2BA1727D1C90038C650 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F68A2BC1727D1CA0038C650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F68A2BE1727D1CA0038C650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F68A2C61727D1E10038C650 /* QXPTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXPTab.h; sourceTree = "<group>"; };
+		0F68A2C71727D1E10038C650 /* QXPTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXPTab.m; sourceTree = "<group>"; };
+		0F68A2C81727D1E10038C650 /* QXPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXPTabBar.h; sourceTree = "<group>"; };
+		0F68A2C91727D1E10038C650 /* QXPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXPTabBar.m; sourceTree = "<group>"; };
+		0F68A2CA1727D1E10038C650 /* QXPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXPTabBarController.h; sourceTree = "<group>"; };
+		0F68A2CB1727D1E10038C650 /* QXPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXPTabBarController.m; sourceTree = "<group>"; };
+		0F68A2CC1727D1E10038C650 /* QXPTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXPTabBarView.h; sourceTree = "<group>"; };
+		0F68A2CD1727D1E10038C650 /* QXPTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXPTabBarView.m; sourceTree = "<group>"; };
+		0F68A2CE1727D1E10038C650 /* selectedBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedBackgroundImage.png; sourceTree = "<group>"; };
+		0F68A2CF1727D1E10038C650 /* UINavigationController+QXPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+QXPTabBarController.h"; sourceTree = "<group>"; };
+		0F68A2D01727D1E10038C650 /* UINavigationController+QXPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+QXPTabBarController.m"; sourceTree = "<group>"; };
+		0F68A2D11727D1E10038C650 /* UIViewController+QXPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QXPTabBarController.h"; sourceTree = "<group>"; };
+		0F68A2D21727D1E10038C650 /* UIViewController+QXPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QXPTabBarController.m"; sourceTree = "<group>"; };
+		0F68A2DB1727D1E40038C650 /* QXPISARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXPISARC.h; sourceTree = "<group>"; };
+		0F68A2DC1727D1F20038C650 /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		0F68A2DD1727D1F20038C650 /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		0F68A2DE1727D1F20038C650 /* ViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		0F68A2DF1727D1F20038C650 /* ViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		0F68A2E01727D1F20038C650 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		0F68A2E11727D1F20038C650 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		0F68A2E51727D2240038C650 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F68A2A21727D1C90038C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F68A2E61727D2240038C650 /* QuartzCore.framework in Frameworks */,
+				0F68A2A91727D1C90038C650 /* UIKit.framework in Frameworks */,
+				0F68A2AB1727D1C90038C650 /* Foundation.framework in Frameworks */,
+				0F68A2AD1727D1C90038C650 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F68A29C1727D1C90038C650 = {
+			isa = PBXGroup;
+			children = (
+				0F68A2AE1727D1C90038C650 /* QXPTabBar */,
+				0F68A2A71727D1C90038C650 /* Frameworks */,
+				0F68A2A61727D1C90038C650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F68A2A61727D1C90038C650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2A51727D1C90038C650 /* QXPTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F68A2A71727D1C90038C650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2A81727D1C90038C650 /* UIKit.framework */,
+				0F68A2AA1727D1C90038C650 /* Foundation.framework */,
+				0F68A2AC1727D1C90038C650 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F68A2AE1727D1C90038C650 /* QXPTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2DA1727D1E40038C650 /* QXPISARC */,
+				0F68A2C51727D1E10038C650 /* QXPTabBarClass */,
+				0F68A2B71727D1C90038C650 /* QXPAppDelegate.h */,
+				0F68A2B81727D1C90038C650 /* QXPAppDelegate.m */,
+				0F68A2DC1727D1F20038C650 /* ViewControllerOne.h */,
+				0F68A2DD1727D1F20038C650 /* ViewControllerOne.m */,
+				0F68A2DE1727D1F20038C650 /* ViewControllerThree.h */,
+				0F68A2DF1727D1F20038C650 /* ViewControllerThree.m */,
+				0F68A2E01727D1F20038C650 /* ViewControllerTwo.h */,
+				0F68A2E11727D1F20038C650 /* ViewControllerTwo.m */,
+				0F68A2AF1727D1C90038C650 /* Supporting Files */,
+			);
+			path = QXPTabBar;
+			sourceTree = "<group>";
+		};
+		0F68A2AF1727D1C90038C650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2E51727D2240038C650 /* QuartzCore.framework */,
+				0F68A2B01727D1C90038C650 /* QXPTabBar-Info.plist */,
+				0F68A2B11727D1C90038C650 /* InfoPlist.strings */,
+				0F68A2B41727D1C90038C650 /* main.m */,
+				0F68A2B61727D1C90038C650 /* QXPTabBar-Prefix.pch */,
+				0F68A2BA1727D1C90038C650 /* Default.png */,
+				0F68A2BC1727D1CA0038C650 /* Default@2x.png */,
+				0F68A2BE1727D1CA0038C650 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F68A2C51727D1E10038C650 /* QXPTabBarClass */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2C61727D1E10038C650 /* QXPTab.h */,
+				0F68A2C71727D1E10038C650 /* QXPTab.m */,
+				0F68A2C81727D1E10038C650 /* QXPTabBar.h */,
+				0F68A2C91727D1E10038C650 /* QXPTabBar.m */,
+				0F68A2CA1727D1E10038C650 /* QXPTabBarController.h */,
+				0F68A2CB1727D1E10038C650 /* QXPTabBarController.m */,
+				0F68A2CC1727D1E10038C650 /* QXPTabBarView.h */,
+				0F68A2CD1727D1E10038C650 /* QXPTabBarView.m */,
+				0F68A2CE1727D1E10038C650 /* selectedBackgroundImage.png */,
+				0F68A2CF1727D1E10038C650 /* UINavigationController+QXPTabBarController.h */,
+				0F68A2D01727D1E10038C650 /* UINavigationController+QXPTabBarController.m */,
+				0F68A2D11727D1E10038C650 /* UIViewController+QXPTabBarController.h */,
+				0F68A2D21727D1E10038C650 /* UIViewController+QXPTabBarController.m */,
+			);
+			path = QXPTabBarClass;
+			sourceTree = "<group>";
+		};
+		0F68A2DA1727D1E40038C650 /* QXPISARC */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A2DB1727D1E40038C650 /* QXPISARC.h */,
+			);
+			path = QXPISARC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F68A2A41727D1C90038C650 /* QXPTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F68A2C21727D1CA0038C650 /* Build configuration list for PBXNativeTarget "QXPTabBar" */;
+			buildPhases = (
+				0F68A2A11727D1C90038C650 /* Sources */,
+				0F68A2A21727D1C90038C650 /* Frameworks */,
+				0F68A2A31727D1C90038C650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QXPTabBar;
+			productName = QXPTabBar;
+			productReference = 0F68A2A51727D1C90038C650 /* QXPTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F68A29D1727D1C90038C650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QXP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = QXP;
+			};
+			buildConfigurationList = 0F68A2A01727D1C90038C650 /* Build configuration list for PBXProject "QXPTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F68A29C1727D1C90038C650;
+			productRefGroup = 0F68A2A61727D1C90038C650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F68A2A41727D1C90038C650 /* QXPTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F68A2A31727D1C90038C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F68A2B31727D1C90038C650 /* InfoPlist.strings in Resources */,
+				0F68A2BB1727D1C90038C650 /* Default.png in Resources */,
+				0F68A2BD1727D1CA0038C650 /* Default@2x.png in Resources */,
+				0F68A2BF1727D1CA0038C650 /* Default-568h@2x.png in Resources */,
+				0F68A2D71727D1E10038C650 /* selectedBackgroundImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F68A2A11727D1C90038C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F68A2B51727D1C90038C650 /* main.m in Sources */,
+				0F68A2B91727D1C90038C650 /* QXPAppDelegate.m in Sources */,
+				0F68A2D31727D1E10038C650 /* QXPTab.m in Sources */,
+				0F68A2D41727D1E10038C650 /* QXPTabBar.m in Sources */,
+				0F68A2D51727D1E10038C650 /* QXPTabBarController.m in Sources */,
+				0F68A2D61727D1E10038C650 /* QXPTabBarView.m in Sources */,
+				0F68A2D81727D1E10038C650 /* UINavigationController+QXPTabBarController.m in Sources */,
+				0F68A2D91727D1E10038C650 /* UIViewController+QXPTabBarController.m in Sources */,
+				0F68A2E21727D1F20038C650 /* ViewControllerOne.m in Sources */,
+				0F68A2E31727D1F20038C650 /* ViewControllerThree.m in Sources */,
+				0F68A2E41727D1F20038C650 /* ViewControllerTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F68A2B11727D1C90038C650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F68A2B21727D1C90038C650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F68A2C01727D1CA0038C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F68A2C11727D1CA0038C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F68A2C31727D1CA0038C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QXPTabBar/QXPTabBar-Prefix.pch";
+				INFOPLIST_FILE = "QXPTabBar/QXPTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F68A2C41727D1CA0038C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QXPTabBar/QXPTabBar-Prefix.pch";
+				INFOPLIST_FILE = "QXPTabBar/QXPTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F68A2A01727D1C90038C650 /* Build configuration list for PBXProject "QXPTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F68A2C01727D1CA0038C650 /* Debug */,
+				0F68A2C11727D1CA0038C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F68A2C21727D1CA0038C650 /* Build configuration list for PBXNativeTarget "QXPTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F68A2C31727D1CA0038C650 /* Debug */,
+				0F68A2C41727D1CA0038C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F68A29D1727D1C90038C650 /* Project object */;
+}
